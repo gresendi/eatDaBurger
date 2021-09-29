@@ -84,6 +84,6 @@ Note: route walkthrough was done using Postman.
 
 ## Screenshots
 
-Postman Routes Example (refer to video walkthrough for more information)
+Insomnia Routes Example (refer to video walkthrough for more information)
 
-![](Develop/assets/img/insomnia.png)
+![](https://github.com/gresendi/ecommerce/blob/main/Develop/assets/img/insomnia.PNG)
