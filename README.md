@@ -15,11 +15,7 @@ Object Relational Mapping (ORM) E-Commerce back end built using MySQL2, Express 
 
 ### [Walkthough Video](https://drive.google.com/file/d/1bU9KYvAGj-m1X1uDRovTc5unKOyX-Fdo/view)
 
-### [Github Repo]()
-
-#### Gif video demo:
-
-![](/assets/img/full-walkthrough.gif)
+### [Github Repo](https://github.com/gresendi/ecommerce)
 
 ## Table of Contents
 
@@ -90,4 +86,4 @@ Note: route walkthrough was done using Postman.
 
 Postman Routes Example (refer to video walkthrough for more information)
 
-![](/assets/img/postman-route-testing.png)
+![](Develop/assets/img/insomnia.png)
