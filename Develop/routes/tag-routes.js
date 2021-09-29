@@ -12,7 +12,7 @@ router.get('/tags', (req, res) => {
     // include associated Product model attributes
     include: {
       model: Product,
-      attribtues: ['product_name', 'product_price', 'product_stock', 'category_id']
+      attribtues: ['product_name', 'price', 'stock', 'category_id']
     }
   })
     // then for response
@@ -35,10 +35,10 @@ router.get('/tags/:id', (req, res) => {
   Tag.findOne({
     // where the database tag id matches the request parameters id provided
     where: { id: req.params.id },
-    // include associated Product model attributes: product_name and product_price
+    
     include: {
       model: Product,
-      attributes: ['product_name', 'product_price', 'product_stock', 'category_id']
+      attributes: ['product_name', 'price', 'stock', 'category_id']
     }
   })
     // then for response

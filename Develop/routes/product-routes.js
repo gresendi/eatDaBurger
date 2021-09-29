@@ -8,7 +8,7 @@ router.get('/products', (req, res) => {
   // find all products
   Product.findAll({
     // find all attributes for products (not required here but adding in case want to bring in only some columns)
-    attributes: ['id', 'product_name', 'product_price', 'product_stock'],
+    attributes: ['id', 'product_name', 'price', 'stock'],
     // include associated category name and tag name
     include: [
       {
@@ -44,7 +44,7 @@ router.get('/products/:id', (req, res) => {
     // where the database product id matches the request parameters id provided
     where: { id: req.params.id },
     // find product attributes (not required here but adding in case want to bring in only some columns)
-    attributes: ['id', 'product_name', 'product_price', 'product_stock'],
+    attributes: ['id', 'product_name', 'price', 'stock'],
     // include associated category name and tag name
     include: [
       {

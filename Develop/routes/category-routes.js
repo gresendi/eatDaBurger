@@ -12,7 +12,7 @@ router.get('/categories', (req, res) => {
     // include associated Product model attributes
     include: {
       model: Product,
-      attributes: ['id', 'product_name', 'product_price', 'product_stock', 'category_id']
+      attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
     }
   })
     // then for response
@@ -38,7 +38,7 @@ router.get('/categories/:id', (req, res) => {
     // include associated Product model attributes (all)
     include: {
       model: Product,
-      attributes: ['id', 'product_name', 'product_price', 'product_stock', 'category_id']
+      attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
     }
   })
     // then for response
