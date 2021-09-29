@@ -14,3 +14,4 @@ sequelize.sync()
   .then(() => app.listen(process.env.PORT || 3000))
   .catch(err => console.log(err))
 
+//https://watch.screencastify.com/v/nhA9zoX6KwZyH67N5uO2
