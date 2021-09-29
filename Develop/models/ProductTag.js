@@ -18,7 +18,7 @@ ProductTag.init(
       type: DataTypes.INTEGER,
 
       references: {         // User belongsTo Company 1:1
-        model: 'Product',
+        model: 'product',
         key: 'id'
 
       }
@@ -28,7 +28,7 @@ ProductTag.init(
       type: DataTypes.INTEGER,
 
       references: {         // User belongsTo Company 1:1
-        model: 'Tag',
+        model: 'tag',
         key: 'id'
 
       }
